@@ -13,6 +13,6 @@ int __init startup(void) {
 }
 
 module_init(startup);
-cleanup_module();
+//cleanup_module();
 
 
