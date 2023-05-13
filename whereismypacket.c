@@ -12,7 +12,7 @@ int __init startup(void) {
     return 0;
 }
 
-init_module(startup);
-//cleanup_module();
+module_init(startup);
+cleanup_module();
 
 
